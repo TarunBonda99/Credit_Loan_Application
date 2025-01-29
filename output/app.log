@@ -1,0 +1,76 @@
+2025-01-29 17:15:42,353 - reader.read - INFO - Successfully read CSV file: ./input/applicants.json
+2025-01-29 17:15:42,353 - rule_engine.transform - ERROR - Error calculating average salary
+Traceback (most recent call last):
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in average_salary
+    total_salary = sum(int(applicant['AnnualSalary']) for applicant in applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in <genexpr>
+    total_salary = sum(int(applicant['AnnualSalary']) for applicant in applicants)
+                           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'AnnualSalary'
+2025-01-29 17:15:42,360 - __main__ - ERROR - An error occurred: 'AnnualSalary'
+Traceback (most recent call last):
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\main.py", line 39, in main
+    avg_salary = rule_engine.average_salary(applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in average_salary
+    total_salary = sum(int(applicant['AnnualSalary']) for applicant in applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in <genexpr>
+    total_salary = sum(int(applicant['AnnualSalary']) for applicant in applicants)
+                           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'AnnualSalary'
+2025-01-29 17:27:41,932 - reader.read - INFO - Successfully read CSV file: ./input/applicants.json
+2025-01-29 17:27:41,932 - rule_engine.transform - ERROR - Error calculating average salary
+Traceback (most recent call last):
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in average_salary
+    total_salary = sum(int(applicant['AnnualSalary']) for applicant in applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in <genexpr>
+    total_salary = sum(int(applicant['AnnualSalary']) for applicant in applicants)
+                           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'AnnualSalary'
+2025-01-29 17:27:41,939 - __main__ - ERROR - An error occurred: 'AnnualSalary'
+Traceback (most recent call last):
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\main.py", line 39, in main
+    avg_salary = rule_engine.average_salary(applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in average_salary
+    total_salary = sum(int(applicant['AnnualSalary']) for applicant in applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in <genexpr>
+    total_salary = sum(int(applicant['AnnualSalary']) for applicant in applicants)
+                           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'AnnualSalary'
+2025-01-29 17:31:53,899 - reader.read - INFO - Successfully read CSV file: ./input/applicants.json
+2025-01-29 17:31:53,899 - rule_engine.transform - ERROR - Error calculating average salary
+Traceback (most recent call last):
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in average_salary
+    total_salary = sum(int(applicants['AnnualSalary']) for applicants in applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in <genexpr>
+    total_salary = sum(int(applicants['AnnualSalary']) for applicants in applicants)
+                           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'AnnualSalary'
+2025-01-29 17:31:53,905 - __main__ - ERROR - An error occurred: 'AnnualSalary'
+Traceback (most recent call last):
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\main.py", line 39, in main
+    avg_salary = rule_engine.average_salary(applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in average_salary
+    total_salary = sum(int(applicants['AnnualSalary']) for applicants in applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in <genexpr>
+    total_salary = sum(int(applicants['AnnualSalary']) for applicants in applicants)
+                           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'AnnualSalary'
+2025-01-29 17:33:25,219 - reader.read - INFO - Successfully read CSV file: ./input/applicants.json
+2025-01-29 17:33:25,219 - rule_engine.transform - ERROR - Error calculating average salary
+Traceback (most recent call last):
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in average_salary
+    total_salary = sum(int(applicants['AnnualSalary']) for applicants in applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in <genexpr>
+    total_salary = sum(int(applicants['AnnualSalary']) for applicants in applicants)
+                           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'AnnualSalary'
+2025-01-29 17:33:25,229 - __main__ - ERROR - An error occurred: 'AnnualSalary'
+Traceback (most recent call last):
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\main.py", line 39, in main
+    avg_salary = rule_engine.average_salary(applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in average_salary
+    total_salary = sum(int(applicants['AnnualSalary']) for applicants in applicants)
+  File "C:\Users\tarun\OneDrive\Desktop\New folder  Git\Credit_Loan_Application\rule_engine\transform.py", line 8, in <genexpr>
+    total_salary = sum(int(applicants['AnnualSalary']) for applicants in applicants)
+                           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'AnnualSalary'
